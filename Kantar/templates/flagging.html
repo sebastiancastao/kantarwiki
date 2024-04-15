@@ -1,0 +1,77 @@
+{% extends "layoutkantar.html" %}
+
+{% block content %}
+<dev style="color:aliceblue">
+    <h1>Spot Editing Guidelines</h1><br>
+    <h2>Flagging</h2>
+    <h5>Flag:</h5><p>the tag applied to a spot indicating the spot’s origin as Network, Syndicated, Hispanic, Cable, or Local.  It is used as part of the process for calculating rates and revenue.  Each Network, Syndicated, Hispanic, or Cable title is attached to a specific set of spots per date of broadcast that must be flagged correctly.</p><br>
+    <h5>Types of Flag Indicators:</h5><br>
+    <h6>Network:</h6><p>Network spots are flagged blue and are indicated in the local edit with an ‘N’ in the origin column.  Network spots are identified in the Network edits </p><br>
+    <ul>
+        <li>Only the spots that match spots in the Network edit can be flagged.</li>
+        <li>A Network title can only be in a local edit with the correct set of Network spots.</li>
+        <li>If the Network title and spots in a local edit do not match the Network title and spots in the title’s Network edit, the title in the local edit needs to be moved, changed, or deleted.</li>
+        <li>Do not leave a Network title in a local edit without the correct set of flagged spots.</li>
+    </ul><br>
+    <h6>Syndication:</h6><p>Syndicated spots are flagged red and are indicated in the local edit with an ‘S’ in the origin column.  Syndicated spots are identified in the Syndication lists</p><br>
+    <ul>
+        <li>A Syndicated title can only be in a local edit with the correct set of Syndicated spots.</li>
+        <li>If the Syndicated title and spots in a local edit do not match the title and spots provided in the title’s Syndication edits, the title in the local edit needs to be moved, changed, or deleted.*</li>
+        <li>*exception: Weekend syndication titles can match syndicated spots from Monday-Friday episodes.</li>
+        <li>Do not leave a Syndicated title in a local edit without the correct set of flagged spots</li>
+
+    </ul><br>
+    <h6>Hispanic:</h6><p> Hispanic spots are flagged purple and are indicated in the local edit with an ‘H’ in the origin column.  Hispanic spots are identified in the Spanish Network edits</p><br>
+
+    <ul>
+        <li>A Hispanic title can only be in a local edit with the correct set of Hispanic Network spots.</li>
+        <li>If the Hispanic title and spots in a local edit do not match the Hispanic title and spots in the Hispanic edit, the title in the local edit needs to be moved, changed, or deleted.</li>
+        <li>Do not leave Hispanic titles in a local edit without the correct set of flagged spots.</li>
+    </ul> <br>
+    
+    <h6>Cable:</h6><p>Cable Network spots are flagged green and are indicated in the local edit with a ‘C’ in the origin column</p><br>
+    <ul>
+        <li>Cable Network spots are identified in the Cable Network edit</li>
+        <li>The same flagging rules apply as with Net, Syndication, and Hispanic titles: </li>
+        <li>Cable Network titles can only be in a local edit with the correct set of flagged spots</li>
+    </ul><br>
+    <h6>Local:</h6><p>Local spots have no flagging indicator and no designator in the origin column.  Local spots can air in any title.</p><br>
+    <ul>
+        <li>Spots of different origins cannot be in the same title unless with local spots  </li>
+        <li>(for example, Network & Local spots can be in the same title, but Network and Syndicated spots cannot be in same title.  There should never be more than one color of flag in any title (blue, red, purple, OR green as indicated above)).  </li>
+        <li>Local spots can occur with any other one type of spots. </li>
+        <li>Spots should not be flagged unless indicated in the corresponding logs.  Do not flag random spots to fit a title in a local edit.  Be sure the title and spots correctly match what is provided in the logs. </li>
+        <li> </li>
+
+
+    </ul><br>
+    <h6> Flagging multiple spots:</h6><br>
+    <ul>
+        <li>Check boxes in local edit for each spot to be flagged/unflagged</li>
+        <li> Use the 'Global' icon to set origin</li>
+    </ul><br>
+    <h1> **  Please remember flagging is important and it is the editor’s responsibility to make sure all titles in local edits are flagged correctly and accurately. **</h1>
+
+</dev>
+<dev style="color:aliceblue">
+<h5>General:</h5><br>
+<img src="{{identflag}}"><br><br>
+<h5>Network:</h5>
+<img src="{{flagnet1}}"><br><br>
+<img src="{{flagnet2}}"><br><br>
+<img src="{{flagnetex1}}"><br><br>
+<img src="{{flagnetex2}}"><br><br>
+<img src="{{flagnetex1p2}}"><br><br>
+<img src="{{flagnetex2p2}}"><br><br>
+<h5>Syndication:</h5>
+<img src="{{flagsynd1}}"><br><br>
+<img src="{{flagsynd2}}"><br><br>
+<img src="{{flagsyndex1}}"><br><br>
+<img src="{{flagsyndex2}}"><br><br>
+<center><img src="{{flagsyndex1p2}}"></center><br><br>
+<center><img src="{{flagsyndex2p2}}"></center><br><br>
+<h5>Hispanic:</h5>
+<img src="{{flaghisp1}}"><br><br>
+<img src="{{flaghisp2}}"><br><br>
+</dev>
+{%endblock%}

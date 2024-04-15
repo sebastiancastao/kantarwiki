@@ -1,0 +1,31 @@
+{% extends "layoutkantar.html" %}
+
+{% block content %}
+<dev style="color:aliceblue">
+<h1>Car Ads Reference Sheet</h1>
+<p>Note: Ford was used for the below examples.  The same rules apply for all car manufacturers, not just Ford.</p><br>
+<p>Please also note: 'Dealer' may be abbreviated as 'Dlr', 'Local' can be abbreviated as 'Loc' or 'Lcl'.  It may be necessary to search for spots several ways to find the correct ones to use.</p>
+<p>When replacing an invalid car ad, replace with one matching the exact details:  include specific car models, 'Leasing' and 'Sales Event' as needed to match the one in your edit that you are replacing.</p><br>
+<ol>
+    <li><h4>Manufacturer Car Ads</h4></li>
+    <ul>
+        <li><h5>Ford Escape:</h5> Add market to account: this is just an ad for the car, it does not mention any region, dealer or dealer assn.  It is a Ford ad from Ford itself, leave as is no changes needed./ This is a Manufacturer ad.  Please do not change Manufacturer ads.</li>
+    </ul>
+    <li><h4>Dealer Association Car Ads</h4></li>
+    <ul>
+        <li><h5>Ford Dealer Assn Escape:</h5>Add market to account: this spot does not mention any specific dealer association, location or region. This is a generic dealer assn ad.  No need to change a generic dealer assn ad.</li>
+        <li><h5>Denver Ford Dealer Assn Escape + Northwest Ford Dealer Assn Espcape:</h5>Ask QA Team to verify if your Market is within 2.5 hours drive from the location shown in the ad.  If so, add Market to the account.  If your Market is more than 2.5 hours drive away, flip to the generic dealer assn ad.  These are specific dealer assn ads. They mention a specific location or region. Invalid specific dealer assn ads are changed to generic dealer assn ads.</li>
+        <li> <h5>Colorado Ford Dealer Assn Escape:</h5>Specific State Dealer Assn ads are changed to generic dealer assn ads or the Market's state Dealer Assn if available. (The car manufacturer may not have all 50 State specific  dealer assns but if one is in the system for your Market, please choose it). </li>
+    </ul>
+    <li><h4>Local Dealer Car Ads</h4></li>
+    <ul>
+        <li><h5>Ford Local Dealer :</h5> Add market to account: this spot does not mention any specific local dealer.  This is a generic local dealer ad.  No need to change a generic local dealer ad </li>
+        <li><h5>McCafferty Ford Local Dealer:</h5>Ask QA Team to verify if the local dealer shown has any locations within a 2.5 hour drive from your market.  If so, add market to account./If no locations are within a 2.5 hours drive from your market, change to the generic local dealer spot. This is a specific local dealer ad. Invalid specific local dealer ads are changed to generic local dealer ads.</li>
+        <li><h5>Ford of Dayton: </h5> Ask QA Team to verify if your market is witin a 2.5 hours drive from location shown in ad.  If so, add market to the account. This is a specific local dealer ad./If your market is more than a 2.5 hours drive from Dayton, change to the generic local dealer spot: 'Ford Local Dealer'. There is not a specific car model mentioned in the ad, do not include any car models in the ad replacing it.</li>
+        <li><h5>Bills Auto Enterprises:</h5> Ask QA Team to verify if the local dealer shown has any locations within a 2.5 hours drive away from your market.  If so, add market to the account./If no locations are within a 2.5 hours drive from your market, these are changed to Unknown Advertiser Local Auto Dealer spots.  They do not mention a specific manufacturer and cannot be changed to any specific manufacturer.  Always ask before using unknown advertiser spots. </li>
+    </ul>
+</ol>
+
+</dev>
+
+{%endblock%}

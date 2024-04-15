@@ -1,0 +1,2364 @@
+(['C:\\Users\\sebastian.castano\\Downloads\\Kantar\\KantarWiki.py'],
+ ['C:\\Users\\sebastian.castano\\Downloads\\Kantar'],
+ ['codecs'],
+ ['C:\\Users\\sebastian.castano\\OneDrive - '
+  'Kantar\\Desktop\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'C:\\Users\\sebastian.castano\\OneDrive - '
+  'Kantar\\Desktop\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__',
+  'C:\\Users\\sebastian.castano\\OneDrive - '
+  'Kantar\\Desktop\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks',
+  'C:\\Users\\sebastian.castano\\OneDrive - '
+  'Kantar\\Desktop\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
+  'C:\\Users\\sebastian.castano\\OneDrive - '
+  'Kantar\\Desktop\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks',
+  'C:\\Users\\sebastian.castano\\OneDrive - '
+  'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_pyinstaller'],
+ {},
+ [],
+ [],
+ False,
+ False,
+ False,
+ {},
+ '3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_subprocess',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_subprocess.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('KantarWiki',
+   'C:\\Users\\sebastian.castano\\Downloads\\Kantar\\KantarWiki.py',
+   'PYSOURCE')],
+ [('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\typing.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\struct.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\signal.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\zipimport.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\ast.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('openai',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\__init__.py',
+   'PYMODULE'),
+  ('openai.api_resources',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\__init__.py',
+   'PYMODULE'),
+  ('openai.api_resources.search',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\search.py',
+   'PYMODULE'),
+  ('openai.api_resources.abstract.engine_api_resource',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\abstract\\engine_api_resource.py',
+   'PYMODULE'),
+  ('openai.api_resources.abstract',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\abstract\\__init__.py',
+   'PYMODULE'),
+  ('openai.api_resources.abstract.updateable_api_resource',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\abstract\\updateable_api_resource.py',
+   'PYMODULE'),
+  ('openai.api_resources.abstract.nested_resource_class_methods',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\abstract\\nested_resource_class_methods.py',
+   'PYMODULE'),
+  ('openai.api_resources.abstract.listable_api_resource',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\abstract\\listable_api_resource.py',
+   'PYMODULE'),
+  ('openai.api_resources.abstract.deletable_api_resource',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\abstract\\deletable_api_resource.py',
+   'PYMODULE'),
+  ('openai.api_resources.abstract.createable_api_resource',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\abstract\\createable_api_resource.py',
+   'PYMODULE'),
+  ('openai.openai_response',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\openai_response.py',
+   'PYMODULE'),
+  ('openai.api_resources.abstract.api_resource',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\abstract\\api_resource.py',
+   'PYMODULE'),
+  ('openai.openai_object',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\openai_object.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\glob.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\tty.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\platform.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('openai.api_resources.moderation',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\moderation.py',
+   'PYMODULE'),
+  ('openai.api_resources.model',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\model.py',
+   'PYMODULE'),
+  ('openai.api_resources.image',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\image.py',
+   'PYMODULE'),
+  ('openai.api_resources.fine_tune',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\fine_tune.py',
+   'PYMODULE'),
+  ('openai.api_resources.file',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\file.py',
+   'PYMODULE'),
+  ('openai.api_resources.error_object',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\error_object.py',
+   'PYMODULE'),
+  ('openai.api_resources.engine',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\engine.py',
+   'PYMODULE'),
+  ('openai.api_resources.embedding',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\embedding.py',
+   'PYMODULE'),
+  ('numpy',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy._version',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_version.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\doctest.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\pdb.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\cmd.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core._machar',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.compat._pep440',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\compat\\_pep440.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy.array_api',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\__init__.py',
+   'PYMODULE'),
+  ('numpy.array_api._utility_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_utility_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._array_object',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_array_object.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._generic_alias',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_generic_alias.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy.array_api._typing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_typing.py',
+   'PYMODULE'),
+  ('numpy.array_api._statistical_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_statistical_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._sorting_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_sorting_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._set_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_set_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._searching_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_searching_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._manipulation_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_manipulation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api.linalg',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\linalg.py',
+   'PYMODULE'),
+  ('numpy.array_api._elementwise_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_elementwise_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._dtypes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_dtypes.py',
+   'PYMODULE'),
+  ('numpy.array_api._data_type_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_data_type_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._creation_functions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_creation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._constants',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\array_api\\_constants.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('openai.api_resources.edit',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\edit.py',
+   'PYMODULE'),
+  ('openai.api_resources.deployment',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\deployment.py',
+   'PYMODULE'),
+  ('openai.api_resources.customer',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\customer.py',
+   'PYMODULE'),
+  ('openai.api_resources.completion',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\completion.py',
+   'PYMODULE'),
+  ('openai.api_resources.classification',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\classification.py',
+   'PYMODULE'),
+  ('openai.api_resources.answer',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\answer.py',
+   'PYMODULE'),
+  ('openai.version',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\version.py',
+   'PYMODULE'),
+  ('openai.util',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\util.py',
+   'PYMODULE'),
+  ('openai.object_classes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\object_classes.py',
+   'PYMODULE'),
+  ('openai.api_resources.experimental.completion_config',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\experimental\\completion_config.py',
+   'PYMODULE'),
+  ('openai.api_resources.experimental',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_resources\\experimental\\__init__.py',
+   'PYMODULE'),
+  ('openai.api_requestor',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\api_requestor.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('requests',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('requests.models',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.packages.six',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\packages\\six.py',
+   'PYMODULE'),
+  ('urllib3.packages',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\packages\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib._appengine_environ',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\contrib\\_appengine_environ.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('urllib3.util.queue',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\queue.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3.request',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\request.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports.makefile',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\packages\\backports\\makefile.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\packages\\backports\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.assets',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\assets\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.md',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\md.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('openai.error',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\openai\\error.py',
+   'PYMODULE'),
+  ('flask',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\__init__.py',
+   'PYMODULE'),
+  ('flask.templating',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\templating.py',
+   'PYMODULE'),
+  ('flask.debughelpers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\debughelpers.py',
+   'PYMODULE'),
+  ('flask.scaffold',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\scaffold.py',
+   'PYMODULE'),
+  ('flask.wrappers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\wrappers.py',
+   'PYMODULE'),
+  ('werkzeug.routing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\routing\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.test',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\test.py',
+   'PYMODULE'),
+  ('werkzeug.wsgi',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\wsgi.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\sansio\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.sansio',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.http',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\sansio\\http.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.response',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\wrappers\\response.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.response',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\sansio\\response.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.request',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\wrappers\\request.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.request',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\sansio\\request.py',
+   'PYMODULE'),
+  ('werkzeug.user_agent',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\user_agent.py',
+   'PYMODULE'),
+  ('werkzeug.formparser',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\formparser.py',
+   'PYMODULE'),
+  ('werkzeug.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.security',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\security.py',
+   'PYMODULE'),
+  ('werkzeug.urls',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\urls.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.multipart',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\sansio\\multipart.py',
+   'PYMODULE'),
+  ('werkzeug.http',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\http.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\datastructures.py',
+   'PYMODULE'),
+  ('werkzeug._internal',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\_internal.py',
+   'PYMODULE'),
+  ('colorama',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('werkzeug.serving',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\serving.py',
+   'PYMODULE'),
+  ('werkzeug._reloader',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\_reloader.py',
+   'PYMODULE'),
+  ('werkzeug.debug',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\debug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.console',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\debug\\console.py',
+   'PYMODULE'),
+  ('werkzeug.debug.repr',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\debug\\repr.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('werkzeug.middleware.shared_data',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
+   'PYMODULE'),
+  ('werkzeug.middleware',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.tbtools',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py',
+   'PYMODULE'),
+  ('werkzeug.routing.rules',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\routing\\rules.py',
+   'PYMODULE'),
+  ('werkzeug.routing.matcher',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\routing\\matcher.py',
+   'PYMODULE'),
+  ('werkzeug.routing.map',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\routing\\map.py',
+   'PYMODULE'),
+  ('werkzeug.routing.exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\routing\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.routing.converters',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\routing\\converters.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('flask.signals',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\signals.py',
+   'PYMODULE'),
+  ('flask.helpers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\helpers.py',
+   'PYMODULE'),
+  ('flask.globals',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\globals.py',
+   'PYMODULE'),
+  ('flask.sessions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\sessions.py',
+   'PYMODULE'),
+  ('flask.json.tag',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\json\\tag.py',
+   'PYMODULE'),
+  ('itsdangerous',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\itsdangerous\\__init__.py',
+   'PYMODULE'),
+  ('itsdangerous.url_safe',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\itsdangerous\\url_safe.py',
+   'PYMODULE'),
+  ('itsdangerous._json',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\itsdangerous\\_json.py',
+   'PYMODULE'),
+  ('itsdangerous.timed',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\itsdangerous\\timed.py',
+   'PYMODULE'),
+  ('itsdangerous.signer',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\itsdangerous\\signer.py',
+   'PYMODULE'),
+  ('itsdangerous.serializer',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\itsdangerous\\serializer.py',
+   'PYMODULE'),
+  ('itsdangerous.exc',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\itsdangerous\\exc.py',
+   'PYMODULE'),
+  ('itsdangerous.encoding',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\itsdangerous\\encoding.py',
+   'PYMODULE'),
+  ('werkzeug.local',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\werkzeug\\local.py',
+   'PYMODULE'),
+  ('flask.ctx',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\ctx.py',
+   'PYMODULE'),
+  ('flask.config',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\config.py',
+   'PYMODULE'),
+  ('flask.blueprints',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\blueprints.py',
+   'PYMODULE'),
+  ('flask.app',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\app.py',
+   'PYMODULE'),
+  ('asgiref.sync',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\asgiref\\sync.py',
+   'PYMODULE'),
+  ('asgiref.local',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\asgiref\\local.py',
+   'PYMODULE'),
+  ('asgiref',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\asgiref\\__init__.py',
+   'PYMODULE'),
+  ('asgiref.current_thread_executor',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\asgiref\\current_thread_executor.py',
+   'PYMODULE'),
+  ('flask.testing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\testing.py',
+   'PYMODULE'),
+  ('click.testing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\testing.py',
+   'PYMODULE'),
+  ('click.core',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.parser',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.globals',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.types',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('click._compat',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.utils',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('click.termui',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('flask.logging',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\logging.py',
+   'PYMODULE'),
+  ('flask.json.provider',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\json\\provider.py',
+   'PYMODULE'),
+  ('click',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('flask.cli',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\cli.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('flask.typing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\typing.py',
+   'PYMODULE'),
+  ('flask.json',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\flask\\json\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\dataclasses.py',
+   'PYMODULE')],
+ [('vcruntime140.dll',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python311.dll',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\python311.dll',
+   'BINARY'),
+  ('libopenblas.FB5AE2TYXYH2IJRDKGDGQ3XBKLKTF43H.gfortran-win_amd64.dll',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\.libs\\libopenblas.FB5AE2TYXYH2IJRDKGDGQ3XBKLKTF43H.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('_multiprocessing',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('numpy.core._multiarray_tests',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.core._multiarray_umath',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.linalg.lapack_lite',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\linalg\\lapack_lite.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('numpy.random.mtrand',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._sfc64',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._philox',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._pcg64',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._mt19937',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random.bit_generator',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._generator',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._bounded_integers',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.random._common',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\random\\_common.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.fft._pocketfft_internal',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.linalg._umath_linalg',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid',
+   'C:\\Users\\sebastian.castano\\OneDrive - Kantar\\Desktop\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\DLLs\\libffi-8.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\sebastian.castano\\Downloads\\Kantar\\build\\KantarWiki\\base_library.zip',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\sebastian.castano\\OneDrive - '
+   'Kantar\\Desktop\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA')],
+ [])

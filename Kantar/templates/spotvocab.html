@@ -1,0 +1,48 @@
+{% extends "layoutkantar.html" %}
+
+{% block content %}
+<devs style="color:aliceblue">
+    <h1>Vocabulary</h1><br>
+    <ul>
+        <li><h3>Market:</h3> The specific city in the U.S. or Canada that is monitored by Kantar Media.  There are currently 215 markets monitored in Spot editing. </li><br>
+        <li><h3>Station:</h3> Within each market, the stations are the individual networks monitored in that market.   Some stations are National Network-affiliated (ABC, CBS, CW, FOX, NBC, ION, MNTV, TEL) or Independent (IND) which are not affiliated with any specific Network. </li><br>
+        <li><h3>Broadcast Date:</h3> The Broadcast Date of an edit or episode title is when the edit or episode aired on television.  Not to be confused with a calendar date.  For example, on calendar date of Monday 6/19, Spot editors are working on Broadcast Date 6/14.</li><br>
+        <li><h3>Local Edit:</h3> The local edit is the list of program titles and spots airing on a market's station for a specific broadcast date.  The local edit is what Spot editors review and edit for accuracy.</li><br>
+        <li><h3>Network Edit (a.k.a. Net Edit or Net Log):</h3>The Network edit provides the list of an individual Network's program titles, program lengths, and Network spots for a specific broadcast date.  It is created by the Network editors after reviewing the Network video.  Network titles can only air on that Network's local station or affiliate.  Current Networks monitored in Spot include ABC, CBS, FOX, NBC, CW, MNTV, and ION.</li><br>
+        <li><h3>Pacific Network Edit/Log:</h3> Pacific Network Edits provide information for West Coast/Arizona/Alaska/ Hawaii programming for a specific broadcast date.  Pacific edits are only referenced when needed.  Current Pacific Network feeds include ABCP, CBSP and NBCP.  </li><br>
+        <li><h3>Cable Network Edit/Log:</h3>The Cable Network edit provides the list of an individual Cable Network's programming information airing on a specific Cable Network for a specific broadcast date.</li><br>
+        <li><h3>Syndication Edit (a.k.a. Synd Edit/Log):</h3> The Syndication edit provides the list of specific Syndicated spots that are airing with a Syndicated title as well as the length of the Syndicated title.  Syndicated titles can air on any Network's local station. </li><br>
+        <li><h3>Hispanic Edit:</h3>Hispanic edits provide the list of an individual Hispanic Network's program titles, program lengths, and Hispanic Network spots for a specific broadcast date.  It is created by the Hispanic Network editors after reviewing the Network video.   Current Hispanic Networks inclue AZTA, TEL, UMA, and UNI.</li><br>
+        <li><h3>Spot:</h3> Spot is another term for 'commercial' or 'ad'.  Types of spots are 'Brand'; 'Promo'; 'Paid Promo'; and 'PSA'</li><br>
+        <li><h3>Brand Spots:</h3>Brand spots include stores and individual products (Walmart, Zyrtec, Neutrogena)</li><br>
+        <li><h3>Promo Spots:</h3>Promos are spots that are used to promote when specific programming is airing or to provide station or Network information (CBS-Big Bang Theory+Promo; CBS-Network Info Msg+Promo, Station Info Msg+Promo).  A Promo can be either a paid promo or a non-paid promo.</li><br>
+        <li><h3>Non-Paid Promo:</h3>A non-paid promo are promo spots that were not 'paid for' by a Network or local station.  Non-paid promos are used for Syndicated titles (Big Bang Theory+Promo)  and same Network promos (CBS-Big Bang Theory+Promo on a CBS affiliated station)</li><br>
+        <li><h3>Paid Promo:</h3>A paid promo is used when programming is being advertised for a non-affiliated Network or Cable station (CBS-Big Bang Theory+Paid Promo if airing on a non-CBS affiliated station or ESPN-MLB Baseball+Paid Promo when promo is airing on a station not affiliated with the Cable network ESPN)</li><br>
+        <li><h3>PSA:</h3>A PSA is a Public Service Announcement spot.  Local stations are not required to air Network PSA's and can choose to air local spots instead.</li>
+        <li><h3>Pod:</h3>A pod is a group of spots airing together.</li><br>
+        <li><h3>Flag:</h3> A flag is the origin indicator of a spot.   Spots can be local, Network, Syndicated, Cable, or Hispanic in origin.  Network, Syndication, Cable, and Hispanic Network titles have specific sets of spots that must be flagged in the local edits when those titles are airing.   The flagged spots per title vary each broadcast date.</li><br>
+        <li><h3>Recover Log:</h3> A stored copy of how a local edit originally came in before an editor has made any changes.  Recover Logs can be brought up by using the 'Log' function at the top of the Spot EWS screen.  Recover Logs are used to recover parts of an edit that were incorrectly deleted.</li><br>
+        <li><h3>Total Errors:</h3> The list of Total Errors that come in with a local edit.</li><br>
+        <li><h3>Error:</h3>The individual Error items found in a local edit's Total Error List.  Total Errors are red flags raised by the system regarding possible problems or incorrect entries in a local edit.  Each Total Error should be carefully investigated within the edit before being approved or deleted from the Queue</li><br>
+        <li><h3>Split Screen Editing:</h3>The term used to describe the most accurate Spot Editing process.  Using split screens allows the editor to compare a local edit with titles and spots found in a Network, Syndicated, Spot, Cable, or Hispanic Network log to correctly identify titles, lengths, and the spots that should be flagged in a local edit.</li><br>
+        <li><h3>Validate:</h3>Used after editing a station or market to make sure no additional Errors are triggered before closing a market</li><br>
+
+    </ul>
+
+</dev>
+
+<center><img src="{{vocabews}}"></center><br><br>
+<center><img src="{{vocabflagging1}}"></center><br><br>
+<center><img src="{{vocabflagging2}}"></center><br><br>
+<center><img src="{{vocabflagging3}}"></center><br><br>
+<center><img src="{{vocabhisp1}}"></center><br><br>
+<center><img src="{{vocabhisp2}}"></center><br><br>
+<center><img src="{{vocabnetwork1}}"></center><br><br>
+<center><img src="{{vocabnetwork2}}"><center><br><br>
+<img src="{{vocabsynd1}}"><br><br>
+<img src="{{vocabsynd2}}"><br><br>
+<img src="{{vocabqueu}}"><br><br>
+
+
+
+{%endblock%}

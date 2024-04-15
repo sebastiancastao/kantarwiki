@@ -1,0 +1,46 @@
+{% extends "layoutkantar.html" %}
+
+{% block content %}
+<dev style="color:aliceblue">
+<h1>Missing Time Reference Sheet</h1>
+<ol>
+    <li>Missing time indicates a gap between commercials. We report missing time in Spot edits of one hour (60 mins) or more.  Missing time less than 60 mins is not reported.</li>
+    <li>When Missing Time is reported in a local edit 3 things are needed:</li>
+    <ul>
+        <li>The From comment: “From XXXX+”</li>
+        <li>The  To comment, with reason: ‘From XXXX to XXXX+…’ comment which is put one second before the title coming on after the missing time is over.</li>
+        <ul>
+            <li>*If no reason can be identified, use “From XXXX to XXXX/Not Monitored” with a reason of ‘Gap’.</li>
+            <li>Delete everything in between in between the From & To comments as shown below</li>
+        </ul>
+        <li>The title that is coming on after the missing time is resolved: this is put at the hour and minute of the first commercial in the edit after missing time, add an in-progress comment if needed.  In the example below, the first commercial is at 6:55:12, so the first title is put at 6:55:00.</li>
+    </ul><br>
+    
+    <img src="{{missingtime1}}" ><br>
+    <Li>Daily Alert: always check the date’s daily alert report for possible reasons for missing time in an edit. </Li>
+     <ul>
+        <li>If the comment/reason listed in the Daily Alert is “Gap/Banner over commercials”: this means commercials were still airing but there was a running scroll of announcements (‘banner’) over them at the bottom.  To solve: delete the missing time comments out of the local edit, leave all titles in place.</li>
+        <li>If the daily alert indicates station difficulty or hardware issue: this means something went wrong at the station or with the satellite feed.  To solve: report in the local edit as real missing time.</li>
+        <li>If the Daily Alert indicates any type of programming was airing (paid programming, children’s programming, a hockey game, a news special, etc.) this means the program simply aired with few or no commercials. To solve: delete the missing time comments, make sure the appropriate title(s) are in the local edit (paid program, sports title, children’s show, news special, etc.).</li>
+     </ul>
+    <li>**Not all valid missing time will be listed in the Daily Alert: just because it is not listed in the Daily Alert does not mean to delete it: missing time is determined on a case-by-case basis and we look at other factors to determine if the missing time should be reported including:</li>
+     <ol>
+        <li>Compare the missing time gap to the title log: if the same gap between commercials is in the title log: the missing time is not real and can be deleted out of the local edit.  Examples of this situation include soccer games and the Democratic Debate, when there are long periods of program time between commercial breaks.</li>
+        <li>Partial discovery markets: it is common for partial discovery, smaller markets to come in with small gaps of missing time which can be deleted.</li>
+        <li>Light pods: edits that come in with very light pods (for example a title should have 30 flagged spots, only 5 came through): ask for verification of how much of the edit should be taken down.  This is a case-by-case situation.</li>
+     </ol>
+    <li>The Paid Program pattern is identified by the ‘neat & tidy’ 28 mins of missing time with commercials at the last 3 minutes of a 30 min title: change the title to ‘Paid Program’ and delete the missing time comments:</li>
+    <br><img src="{{missingtime2}}" ><br>
+    <p>**Due to updated missing time guidelines, EWS no longer puts 28 minutes of missing time in local edits as shown above.  However, the Paid Program pattern is still the same: 28 mins gap  with spots in last 3 mins of a 30-minute time frame.  Change the Unidentified Program  to Paid Program.  If this pattern is repeating in an edit and paid program titles are missing, insert Paid Program as needed.   Usually this happens if the titles need to start at unusual times such as 6:01, 6:31, 7:01, 7:31, etc.  </p>
+
+</ol>
+ 
+
+
+</dev>
+
+
+
+
+
+{%endblock%}

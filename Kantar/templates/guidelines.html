@@ -1,0 +1,593 @@
+{% extends "layoutkantar.html" %}
+
+{% block content %}
+<dev style="color:aliceblue">
+    <table style="border:1px solid aliceblue">
+        <thead style="border:1px solid aliceblue">
+            <tr style="border:1px solid aliceblue">
+            
+             <th colspan="3"><h4>Definition: Queue errors are created by the sytem to alert editors of possible corrections needed in local edits</h4></th> 
+            </tr>
+        </thead>
+        <tbody style="border:1px solid aliceblue">
+            <tr style="border:1px solid aliceblue">
+                <td ><h5>Queue error</h5></td>
+                <td><h5>Purpose/Explanation</h5></td>
+                <td><h5>Editor Steps to Solve</h5></td>
+                
+            </tr>
+            <tr style="border-top:1px solid aliceblue">
+                <td>Account Deactivated</td>
+                <td>A deactivated account is not active in the system because it is no longer valid.  Deactivated accounts cannot be  used in any edits. </td>
+                <td>> Check for alternate account and change the deactivated spot: example: 'Late Night With Jimmy Fallon' is no longer airing.  All promos for this title have been deactivated.  The correct promo replacement would be 'Late Night With Seth Myers/Promo'.  </td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If an editor is unsure what to change a deactivated account spot to, ask expeditor or Supervisor.  NEVER validate deactivated spots or add them to a market.  Deactivated accounts MUST be changed in edits</td>
+                </tr>
+            </tr >
+            <tr style="border-top:1px solid aliceblue">
+              <td>Brand in Program Buy</td>
+              <td>This queue item was created to ensure that commercials do not appear in a paid or instructional type  program in any position other than the break at the end of a program.  The last three minutes before the next program title is considered the break position.</td>
+              <td>> Verify title is really a paid program. A paid program will have very few commercials and the ads are related to the product in the paid program.  They are often multiple spots for the same product.  These spots can be deleted leaving the break spots (last 3 mins) in place.</td>
+              <tr >
+               <td></td>
+               <td></td>
+              <td>> 'Paid Program' titles will come in local edits incorrectly.  Never delete National Brand spots and pods to agree with or create a Paid Program title in a local edit.  This indicates the Paid Program title is incorrect and needs to be changed. Try to determine the correct title by referring to previous station edits or Network/Syndication logs.  If the correct title cannot be determined, change the title to Unidentified Program.  Leave all spots in the edit.</td>
+              </tr>
+
+            <tr style="border-top:1px solid aliceblue">
+           
+                <td>Commercial Starts Day</td>
+                <td>Only a Sign On comment or a Title can start a day's edit.  If a commercial ("Brand") airs before either of these, this queue error will occur.</td>
+                <td>> If the spot belongs with the first title in the edit (confirmed in a title log), move the spot so that is airing with the title (05:00:02 am).  Make sure the first title is starting directly on the hour: 5:00:00 am</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td> > If the spot is coming in the edit before the sign on comment, delete the spot, move the sign on comment to 05:59:59 am so that the first title in the edit is starting directly on the hour: 06:00:00 am NOT 06:00:01.</td>
+                </tr>
+            </tr>
+
+            <tr style="border-top:1px solid aliceblue">
+                <td>Comment Beyond End Of Day Comment</td>
+                <td>No titles or spots can occur after a 'Sign Off' comment in a local edit. </td>
+                <td>> If the 'Sign Off' comment is at the beginning of the edit (as shown), follow instructions above for 'Comment Must Start Day'.  </td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td> If the 'Sign Off' comment is at the end of the edit but there are commercials/titles airing after it, move the comment past all programming to the next available minute.</td>
+                </tr>
+            </tr>
+            <tr style="border-top:1px solid aliceblue">
+                <td>Comment Breaks Spot</td>
+                <td>When the air time (length) of a spot overlaps the occurrence of a comment, the comment will cause this queue error.</td>
+                <td>> If the comment is the 2 a.m. end of day 'Beyond XXXXX+Not Monitored', delete the spot above it that is being broken by the end of day comment.</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If this queue error is not with the end of day comment, move the comment up so that the spot before it has the correct length and is not being 'broken'.</td>
+                </tr>
+            </tr>
+
+            <tr style="border-top:1px solid aliceblue">
+                <td>Comment Must Start Day</td>
+                <td>Spot edits begin the broadcast day at 5 am.  If a station does not begin programming until later (6 am) the first comment of the day needs to be 'Sign On' and in the edit one second before the start of first title (5:59:59 am if the first title in the edit is at 6:00:00 am).</td>
+                <td>> If the edit came in without a sign on comment, Insert a Sign On comment one second before the first title</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> When a station begins programming after 5 am, the edit may come in wrong with missing time at 5:00 am, the sign on comment at 6:00:00 am, and the first title incorrectly at 6:00:01 am.:  Delete the missing time, move the Sign On comment 5:59:59, and move the first title 6:00:00.  Title times must be in :00 seconds. </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>* Sign on comments are only used for stations that do not begin programming until after 5 am.  Not all edits should have a Sign On comment.  Stations that start broadcasting at 5 am begin  edits with a title instead of sign on comment.</td>
+                </tr>
+            </tr>
+
+            <tr style="border-top:1px solid aliceblue">
+                <td>Different origins in same show</td>
+                <td>If spots with different origins (flags) are in the same title, this queue error appears</td>
+                <td>
+                    > Determine if all spots belong with the same title by comparing title logs.  If the spots are matching the syndicated title log, use the synd title and flag the spots for Syndication according to title log.</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If the spots are matching the Network version of a title, use the Network title and make sure all spots are accurately flagged according to the title log.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If the spots are from 2 different shows, determine the missing title and insert it into the local edit. If the correct title (s) cannot be determined, insert Unidentified Program so that each type of flagged spot is with a separate title.</td>
+                </tr>
+            </tr >
+
+            <tr style="border-top:1px solid aliceblue">
+                <td>Last Record Not End of Day Comment</td>
+                <td>Spot markets are monitored from 5am - 2am.  All edits must end the day with either 'Beyond XXXXX Not Monitored' or with a  'Sign Off' comment</td>
+                <td>> If a station has broadcast info until 2 am, the last comment is at 2 am and reads 'Beyond XXXXX Not Monitored'</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If a station stops programming prior to 2 am, the last comment is 'Sign Off' and it is inserted when programming ends for the station</td>                    
+                </tr>
+
+            </tr>
+            <tr style="border-top:1px solid aliceblue">
+                <td> Origin Invalid for Show                   Origin is Unusual for Show           Invalid Origins</td>
+                <td>These queue errors occur when the origin (flag) of a spot is different than the type of title it is airing with.  (Network spots cannot be with a Syndicated title, Syndicated spots cannot be with a Network title, local titles should not have any flagged spots)</td>
+                <td>> Determine the correct title if possible using title logs and previous station edits.  Change title and correct the flagging in local edit as needed.</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If it is determined that a title is missing from the edit, insert correct title if identified.  Insert 'Unidentified Program' if the correct title cannot be found.  Correct flagging in edit as needed.</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If the title is correct and needs to be made valid for a TV service, send the title in to have the correct service added to the title.  (ex: 'Event Horizon Movie' needs to be made valid for Syndication before any spots can be flagged for Syndication)</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>*Sometimes a Network title can come in an edit with Syndicated spots and needs to be changed to Syndicated version: (American Ninja Warrior-MNTV is a Network title, the Synd title is 'American Ninja Warrior'). Spots in edit will match the correct log to identify the correct title.  Change title in edit/correct flagging if needed. </td>
+                    
+                </tr>
+
+            </tr>
+            <tr style="border-top:1px solid aliceblue">
+                <tr>
+                <td>Paid Promo airing on Same Owner Network</td>
+                <td>Non-Paid Promo airing on Different Owner Network</td>
+                </tr>
+                
+                <td>Alerts editor that a promo is airing in the edit that does not agree with the Network affiliate it is airing on</td>
+            
+                <td>> if the Network shown in the promo is not owned by the same parent company as the network it is airing on, the promo must be changed to a paid promo (ex: FOX and CBS are not owned by same company: all FOX promos airing on CBS affiliates must be changed to paid promos: FOX-Last </td>
+                
+                <tr>
+
+                    <td></td>
+                    <td></td>
+                    <td>> If a paid promo is appearing on its own Network, change to correct promo: FOX-Last Man Standing/Paid Promo on a FOX affiliate would be changed to FOX-Last Man Standing/Promo (because FOX is obviously not paying to air their own promos so a PAID promo would be incorrect)</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> NFLN Network promos: if the local station is airing an NFL Football game directly off the NFLN Cable Network feed, any NFLN promos in the NFLN program are NOT paid and left in edits as shown in the Cable Network log.  Otherwise, NFLN promos are PAID Promos.</td>
+                    
+                </tr>
+
+            </tr>
+            <tr style="border-top:1px solid aliceblue">
+                <td>Previous Record Not Show</td>
+                <td>Tells the editor an 'in progress' comment is in the edit but is not paired with a title.  'In Progress' comments must be preceded by a program title.</td>
+                <td>> Verify a title is in progress by comparing edit to title logs. Move the 'In Progress' comment to directly after the title that is starting in progress. </td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If there is no title in progress, delete the 'In Progress' comment out of the edit.</td>
+                    
+                </tr>
+                
+
+            </tr>
+            <tr style="border-top:1px solid aliceblue">
+                <td>Product Invalid For Market</td>
+                <td>To verify spots airing in local edit are correct for the Market they are airing in.  All invalid brands, promos, and PSA's must be made valid for the Market, OR changed to another product, OR changed to a different origin ("flagged"), OR sent in to be verified.  ***Do not 'automatically' add an invalid product to a Market.  Verify first (!)</td>
+                <td>> If the invalid spot is airing during a Network or Syndicated title and is unflagged: refer to the Net or Synd title log to verify if the spot should be flagged in the local edit, flag the spot and add Market to account.  QA approval is not needed.</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If the spot is related to the title/program material, it can be added to market without QA team approval:  example: Invalid pesticide spots in 'U.S. Farm Report'</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> Invalid spots for sports teams airing during sporting events: spots for the teams playing can be added to the market without QA team approval (example: invalid UCLA spots would be added to a  market when airing during a UCLA game).</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If the invalid spot is not found in a title log, is a known National brand, and is not one of the special situations listed below, add the market to the spot account. </td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Car Dealer Associations and Local Car Dealers: ask expeditor to verify if the Market should be added to the account</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>>If the spot is determined to be correct for the Market, add Market to the account.</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>>If the spot should not be made valid in the Market:</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> > Change invalid Dealer Assn to generic Dealer Assn spots: ex: Juneau Toyota Dlr Assn Camry would be changed to Toyota Dlr Assn Camry</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> > Change invalid local dealers to generic local dealer spots: ex: Bob's Toyota would be changed to Toyota Loc Dlr</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Lawyers: same as car dealers: ask expeditor to research.  If spot should be made valid in a Market, add Market to account.  If spot should not be made valid for Market, change to Unknown Adv/Lawyer/Market Name (ex: invalid 'Martin & Hayes Attorney' spots in Atlanta would be changed to Unknown Adv/Lawyer/Atlanta)</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Lottery: Lottery spots are state-specific for the market they air in.  Change invalid lottery spots to the correct state lottery spot for the market. Do not add invalid out-of-state lottery spots to a market (!)</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Promos: Invalid promos almost always need to be changed to Network promos:</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> Determine if the title in the promo is a current Network title and if it is in Syndication. Ask for assistance if unsure, do not guess.</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If title airs as Network only: add Network call letters to the promo:  >>'Schooled/Promo': Schooled is only airing on ABC as a Network title.  It is NOT in Syndication.  All promos for Schooled in non-Canadian markets MUST be flipped to Network promos: ABC-Schooled/Promo.  </td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>>> Last Man Standing: This title is a FOX Network title and is also in Syndication. </td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> when on home network affiliates (FOX): use network promo (FOX-Last Man Standing/Promo)</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> when not on home network use 'Last Man Standing/Promo'.  Promos without call letters are either for Canadian markets or for titles in Syndication</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>*exception: Paid network promos shown in non-home network log: FOX-Last Man Standing/Paid Promo would be used if shown in a non-FOX net log such as CBS or ABC logs.</td>
+                    
+                </tr>
+
+            </tr>
+            <tr style="border-top:1px solid aliceblue">
+                <td> Product Invalid for Service Specified By Origin</td>
+                <td>This indicates a spot in a local edit is not valid for the media service it is  flagged for </td>
+                <td>> To identify the media services a spot is valid for, highlight the spot in the edit aand press F1.  The services checked under 'Valid Medias' indicate what service a spot is valid for.</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> If the spot matches what is in a Network title log but is not valid for Network Media, send it in to Broadcast Specialist email and ask for the product (spot) to be made valid for Network Media.  Same process is followed for Syndicated spots not valid for Syndication.</td>
+                    
+                </tr>
+                <tr >
+                    <td></td>
+                    <td></td>
+                    <td>> If an invalid brand spot is airing against a similar spot in a title log, send the spot into the Broadcast Specialists to be verified.  The spot will either be changed or made valid so it can be flagged for the correct service</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> Invalid for Service spots not found in a title log should be unflagged and left as local.  Local spots not valid for Spot TV need to be sent in to be verified.</td>
+                    
+                </tr>
+
+            </tr>
+            <tr style="border-top:1px solid aliceblue">
+                <td>Questionable Hispanic Activity</td>
+                <td>Questionable Hispanic Activity</td>
+                <td>> Solve this queue alert same as for Questionable Network Activity queues.  Never leave a Hispanic Network title in an edit without the correct set of flagged spots unless shown that way in the Net log.</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Exception: unlike English stations, Hispanic Network News Specials often have designated Network spots and should be treated like any other Network title by verifying the title is with the correct spots. </td>
+                    
+                </tr>
+              
+
+             </tr>
+             <tr style="border-top:1px solid aliceblue">
+                <td>Questionable TV Show Name</td>
+                <td>Any title with numbers needs to be verified and will cause this queue error</td>
+                <td>>Code Numbers in the title: Code numbers can never be part of a title ('News-167208')</td>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> Change title in local edit to correct alternate title without code numbers</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> This Queue error will disappear once the title has been correctly replaced</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> Do not validate titles with code numbers: these titles must be changed in your edit.</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Current year specials:  A specific year is rarely used in any title.</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> Thanksgiving Parade 2018 would be changed to Thanksgiving Parade.</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>> 2019 Oscar Preview Special would be changed to Oscar Preview Special</td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Exceptions: If a number or year is a valid part of the title: 'Xploration Earth 2050', 'WKCL News at 6', '2 Fast 2 Furious': questionable show title queue errors for these types of titles can be approved.</td>
+                    
+                </tr>
+                <tr style="border-top:1px solid aliceblue">
+                    <td>Review Local Newscast</td>
+                    <td>For AM News: To identify Network spots airing in local morning news programs</td>
+                    <td>> ABC stations Mon-Fri: compare local morning news titles to the ABC Network log.  Flag for Network any spots from the first pod of 'America This Morning'</td>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>> Approve the queue error</td>
+
+                    </tr>
+                </tr>
+                <tr style="border-top:1px solid aliceblue">
+                    <td>Review Local Newscast</td>
+                    <td>For PM News: To allow local stations to air local commercials, during Network Primetime programming, in the break after last Network title and before local news (known as 'break spots')</td>
+                    <td>> When local news is following Network Primetime programming, always move the local news up two mins (9:00 to 9:02, 10:00 to 10:02, 11:00 to 11:02 depending on market time zone).  Move more than 2 mins if local break spots are airing past :02. ***does not apply to Hispanic edits***</td>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>* The local news after Primetime is always moved up 2 mins even if no local break spots are airing in a local edit.  Applies only if news is airing directly after a regular Primetime title, NOT if airing directly after a sporting event. </td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>> Approve the queue error</td>
+
+                    </tr>
+                </tr>
+                <tr style="border-top:1px solid aliceblue">
+                    <td>Recurring Flip to Unknown Advertiser</td>
+                    <td>When a spot that has been changed to an unkown advertiser is counted by the system as airing more than 10 times, this queue error will appear.</td>
+                    <td>> Editor provides the details (Event ID, date, time, and station information) through the Broadcast Specialist email.  A call needs to be made to the station's traffic department to identify the spot that aired at that time.</td>
+            
+                </tr>
+                <tr style="border-top:1px solid aliceblue">
+                    
+                    <td>Show Breaks Pod</td>
+                    <td>If a program starts in the edit before the air time of a spot or pod of spots is complete, these queue errors will appear.</td>
+                    <td>> To solve overlapping title start times, move the title past the spot air time to the closest minute.  DO NOT move the spots in the edit, move the title to next available minute. </td>
+                   
+                </tr>
+                <tr style="border-top:1px solid aliceblue">
+                    <td>Show Length Differs From Network Log</td>
+                    <td>When the system detects a Network  program in a local edit has a length that is not consistent with what is shown in the Network log, this queue error will appear</td>
+                    <td>> Refer to the Network log for correct start time and length and adjust local edit: example:  If a Network log shows a title starting at 5:35 am for 25 mins, but the title comes in the local edit at 5:30 for 30 mins, adjust the start time to 5:35 as shown in the Net  log.</td>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>> The last Network Primetime title is given extra 2 mins in length so that local stations can air local ads at the Network rate and will cause this queue error daily: </td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>>> If the title following Primetime is not local news: move the title up 2 mins or more ONLY if there are local break spots airing.</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>>> If the title following Primetime is not local news: move the title up 2 mins or more ONLY if there are local break spots airing.</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>If multiple episodes with the same title but different lengths are airing in an edit, it will also cause this queue error: </td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>> use the title logs to compare each episode & make sure each episode is running the length shown in the title log.</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>> A title airing in progress may also cause a show length mismatch.  Verify the title is in progress by comparing to title log. Insert 'in progress' comment if needed and approve the queue error. If the title is not in progress, delete the in progress comment.</td>
+
+                    </tr>
+                </tr>
+                <tr style="border-top:1px solid aliceblue">
+                    <td>Spot overlap</td>
+                    <td>Spot overlaps are caused when the length of one commercial spot runs over the start time of the next commercial spot.</td>
+                    <td>> If the spot overlap was caused by updating spots to title logs that changed the length of the original spot, use the recover log to change the length of the spot that was updated to its original length.  (Example: if an editor updates a 10 second spot in a local edit to a 30 sec spot in a title log, this overlap can occur). </td>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>> If the edit came in with overlapping spots, check the boxes for all spots in the overlapping pod, then choose 'Align Spots' from the drop down menu.</td>
+
+                    </tr>
+                </tr>
+                <tr style="border-top:1px solid aliceblue">
+                    <td>TV Show Invalid For Service</td>
+                    <td>When a title has not been made valid for the Media service it is airing in, it will cause this queue error. (These guidelines focus on titles not valid for Spot TV Media service)</td>
+                    <td>> Replace the invalid title with a correct alternate title if one is found in the system (Halloween Parade 2018 would be changed to Halloween Parade)</td>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>> If there is not a replacement for an invalid title, send the title in to have the TV service added. Spot Editors cannot make titles valid for TV services, they must be researched and decided by a Supervisor & members of the Broadcast Specialist team.</td>
+
+                    </tr>
+                    <h3>Missing Time</h3>
+                    <tr style="border-top:1px solid aliceblue">
+                        <td>Missing Time </td>
+                        <td>Missing Time comments appear in edits when the system detects a gap in commercial activity for 60 mins or more.</td>
+                        
+                        <td>> Check the Daily Alert to see if valid Missing Time has been reported.  Adjust edit accordingly.  * See 'Daily Alert' information below.</td>
+                        <tr>
+                        <td></td>
+                        <td></td>
+                        <td>>  If missing time is occurring in one title in an edit, compare edit to title log.  If the same pattern of program time and spots is shown in the title log, the missing time is not real and the comments are deleted out of the local edit (soccer games)</td>
+
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>> Verify the title type: Local news, paid programs and locally aired sporting events are examples of programs where there is often 60 mins or more of program material without any commercial activity.  In these situations, the missing time comments are deleted out of the local edit </td>
+    
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>> If a title log is available, always verify edit against title log to determine if any data is missing.  If the same gap between commercials is shown in the title log, the missing time comments are deleted from the local edit.</td>
+    
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>> If it is determined to be real missing time, it needs to be reported in the edit with the correct 'From XXXX+' and 'From XXXX to XXXX+' comments.</td>
+    
+                        </tr>
+
+                    </tr>
+                    <tr style="border-top:1px solid aliceblue">
+                        <tr>
+                            <td>Missing a Missing Time Comment</td>
+                            <td>All of these queue items will appear when an edit does not show missing time correctly. All missing time reported in a local edit must have a beginning 'From XXXX' comment and an ending 'From XXXX to XXXX…' comment</td>
+                        <td>> Insert the missing comment: make sure all missing time has a 'from' and 'to' comment correctly placed in the edit.  There should be no titles or spots in between a set of missing time comments.</td>
+                        </tr>
+                        <tr>
+                            <td>Missing To Comment</td>
+                        </tr>
+                        <tr>
+                            <td>Missing From Comment</td>
+                        </tr>
+                        <tr>
+                            <td>Previous Record Not From Comment</td>
+                        </tr>
+                        <tr>
+                            <td>From/To Comments Out of Order</td>
+                        </tr>
+                        <tr>
+                            <td>Consecutive From comments</td>
+                        </tr>
+                   
+              
+                    </tr>
+                    <tr style="border-top:1px solid aliceblue">
+                        <td>Daily Alert</td>
+                        <td>The Daily Alert provides information related to missing time in local edits.  Please note the following:</td>
+                        <td>> Not all valid missing time may be included in a day's daily alert report.  When missing time is not listed here, ask for help to determine if the missing time in an edit should be reported or deleted.</td>
+                        <tr>
+                        <td></td>
+                        <td></td>
+                        <td>> If the following information is shown in the 'Usercomment' column, the missing time is NOT real and needs to be deleted out of the edit.  DO NOT report the following as valid missing time in a local edit:</td>
+
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>>> Programming</td>
+    
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>>> Gap (Banner over commercials)</td>
+    
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>See example of a Daily Alert report below:</td>
+    
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>> The missing time comments in the Nashville edit would be deleted because Gap (Banner over commercials) is not real missing time.</td>
+    
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>> The missing time comments in the Los Angeles & Utica edits would be deleted because of "Programming" (some programs do air with no commercials).</td>
+    
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>> Casper,  Syracuse, and Washington would be reported as 'real' missing time because the  stations listed were having some form of technical/hardware/signal difficulty preventing the station from broadcasting.</td>
+    
+                        </tr>
+
+                    </tr>
+                </tr>
+ 
+
+            </tr>
+
+            </tr>
+        </tbody>
+
+    </table>
+
+</dev>
+
+</dev><br>
+<img src="{{guidelinesal1}}"><br><br>
+
+
+
+{%endblock%}

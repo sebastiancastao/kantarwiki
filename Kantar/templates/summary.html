@@ -1,0 +1,231 @@
+{% extends "layoutkantar.html" %}
+
+{% block content %}
+<dev style="color:aliceblue">
+    <h1>Broadcast Editing</h1><br>
+    <h2>Advertising Intelligence</h2><br>
+    <img src="{{adi}}"><br>
+    <h2>Introduction to Broadcast TV</h2><br>
+    <h3>What is editing?</h3><br>
+    <ul>
+        <li>The main goals of Spot TV Editing are to resolve origin discrepancies (the source of the commercial as either Network, Syndication or Local.  Also known as ‘flags’), verify and correct program titles and lengths, including verifying and correcting MediaWatch errors (Misclassification of spots), report missing time (gaps in software-collected data) as needed, and verifying Network & regional sporting events (Local sporting events not airing nationally).​​</li> 
+        <li>There are predetermined problems with the data that the Editorial Workstation (EWS, the software application used for Editing) recognizes and arranges in Queues. The editors must resolve all items in the Queues before the data can be released to the next department.</li>        
+    </ul><br>
+ <center><table>
+    <thead></thead>
+    <tbody>
+        <tr>
+            <td><h2>Network</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           
+            <td><img src="{{dorado}}" ><img src="{{net}}"></td>
+        </tr>
+        <tr>
+            <td><h2>Syndicated</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="{{dorado}}" ><img src="{{synd}}"></td>
+        </tr>
+        <tr>
+            <td><h2>Local</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="{{dorado}}" ><img src="{{local}}"></td>
+        </tr>
+        <tr>
+            <td><h2>Cable</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="{{dorado}}" ><img src="{{cable}}"></td>
+        </tr>
+        <tr>
+            <td><h2>Canadian</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="{{dorado}}" ><img src="{{canadian}}"></td>
+        </tr>
+        <tr>
+            <td><h2>Hispanic</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="{{dorado}}" ><img src="{{hispanic}}"></td>
+        </tr>
+    </tbody>
+
+ </table></center><br>
+
+ <h1>Type of TV</h1><br>
+ <ul>
+   <li><h5 style="color:blue">Network</h5>ABC, CBS, FOX, NBC (Big Four), CW, ION and MNTV</li>
+    <li><h5 style="color:crimson">Syndiction</h5>Network buys rights to air a show on their station</li>
+    <li><h5 style="color:black">Local</h5>Local programs (Local News, local sports game, etc)​</li>
+    <li><h5 style="color:greenyellow">Cable</h5> TBS, TNT, ESPN, NFLN etc.​</li>
+    <li><h5 style="color: blueviolet;">Hispanic</h5>UNI, UMA, AZT, and TEL</li>
+ </ul><br>
+ <center><image src="{{usmap}}"></center>
+<h5>Our Basic Time Zones are:</h5>
+<ol>
+    <li>Eastern</li>
+    <li>Central</li>
+    <li>Mountain</li>
+    <li>Pacific</li>
+    <li>Alaska</li>
+    <li>Hawaii</li>
+
+</ol><br>
+<image src="{{edpro}}"><br><br>
+<h1>Editing Vocabulary</h1><br>
+<table>
+    <thead></thead>
+    <tbody>
+        <tr>
+            <td><h5>Broadcast date</h5> </td>
+            <td>The Broadcast Date of an edit or episode title is when the edit or episode aired on television.  Not to be confused with a calendar date.  For example, on calendar date of Monday 6/19, Spot editors are working on Broadcast Date 6/14.</td>
+        </tr>
+        <tr>
+            <td><h5>Market</h5></td>
+            <td>The specific city in the U.S. or Canada that is monitored by Kantar Media.  There are currently 215 markets monitored.</td>
+        </tr>
+        <tr>
+            <td><h5>Station</h5></td>
+            <td>Within each market, the stations are the individual networks monitored in that market. </td>
+        </tr>
+        <tr>
+            <td><h5>Pod</h5></td>
+            <td>A pod is a group of spots airing together.</td>
+        </tr>
+        <tr>
+            <td><h5>Spot</h5></td>
+            <td>Spot is another term for 'commercial' or 'ad'</td>
+        </tr>
+        <tr>
+            <td><h5>Local Edit=Log</h5></td>
+            <td>The local edit is the list of program titles and spots airing on a market's station for a specific broadcast date.  The local edit is what Spot editors review and edit for accuracy.</td>
+        </tr>
+        <tr>
+            <td><h5>Network edit=Log</h5></td>
+            <td>The Network edit provides the list of an individual Network's program titles, program lengths, and Network spots for a specific broadcast date.  It is created by the Network editors after reviewing the Network video.  Network titles can only air on that Network's local station or affiliate.  </td>
+        </tr>
+        <tr>
+            <td><h5>Pacific Network Edit/log</h5></td>
+            <td>Pacific Network Edits provide information for West Coast/Arizona/Alaska/ Hawaii programming for a specific broadcast date.  Pacific edits are only referenced when needed.  Current Pacific Network feeds include ABCP, CBSP and NBCP.  </td>
+        </tr>
+        <tr>
+            <td><h5>Cable Network Edit</h5> </td>
+            <td>The Cable Network edit provides the list of an individual Cable Network's programming information airing on a specific Cable Network for a specific broadcast date.</td>
+        </tr>
+        <tr>
+            <td><h5>Syndication Edit</h5></td>
+            <td>The Syndication edit provides the list of specific Syndicated spots that are airing with a Syndicated title as well as the length of the Syndicated title.  Syndicated titles can air on any Network's local station.</td>
+        </tr>
+        <tr>
+            <td><h5>Hispanic Edit</h5></td>
+            <td>Hispanic edits provide the list of an individual Hispanic Network's program titles, program lengths, and Hispanic Network spots for a specific broadcast date.  It is created by the Hispanic Network editors after reviewing the Network video.   Current Hispanic Networks include AZTA, TEL, UMA, and UNI.</td>
+        </tr>
+        <tr>
+            <td><h5>Brand spots</h5></td>
+            <td>Brand spots include stores and individual products (Walmart, Zyrtec, Neutrogena)</td>
+        </tr>
+        <tr>
+            <td><h5>Non-Paid Promo</h5></td>
+            <td>A non-paid promo are promo spots that were not 'paid for' by a Network or local station.  Non-paid promos are used for Syndicated titles (Big Bang Theory+Prom)  and same Network promos (CBS-Big Bang Theory+Promo on a CBS affiliated station)</td>
+        </tr>
+        <tr>
+            <td><h5>PSA</h5></td>
+            <td> PSA is a Public Service Announcement spot.  Local stations are not required to air Network PSA's and can choose to air local spots instead.</td>
+        </tr>
+        <tr>
+            <td><h5>Flag</h5></td>
+            <td>A flag is the origin indicator of a spot. Network, Syndication, Cable, and Hispanic Network titles have specific sets of spots that must be flagged in the local edits when those titles are airing.  The flagged spots per title vary each broadcast date.</td>
+        </tr>
+        <tr>
+            <td><h5>Recover Log </h5></td>
+            <td>A stored copy of how a local edit originally came in before an editor has made any changes.  Recover Logs can be brought up by using the 'Log' function at the top of the Spot EWS screen.  Recover Logs are used to recover parts of an edit that were incorrectly deleted. </td>
+        </tr>
+        <tr>
+            <td><h5>Total Errors</h5</td>
+            <td>The list of Total Errors that come in with a local edit.</td>
+        </tr>
+        <tr>
+            <td><h5>Error</h5</td>
+            <td>The individual Error items found in a local edit's Total Error List.  Total Errors are red flags raised by the system regarding possible problems or incorrect entries in a local edit.  Each Total Error should be carefully investigated within the edit before being approved or deleted from the Queue.</td>
+        </tr>
+        <tr>
+            <td><h5>Split Screen Editing</h5</td>
+            <td>Using split screens allows the editor to compare a local edit with titles and spots found in a Network, Syndicated, Spot, Cable, or Hispanic Network log to correctly identify titles, lengths, and the spots that should be flagged in a local edit.</td>
+        </tr>
+    
+
+        
+
+    </tbody>
+</table><br><br>
+<h1>Promos/Paid promos</h1><br><br>
+<table>
+    <tbody>
+        <tr>
+            <td><h5>Promo Spots</h5></td>
+            <td>Promos are spots that are used to promote when specific programming is airing or to provide station or Network information. A Promo can be either a paid promo or a non-paid promo.</td>
+            
+        </tr>
+        <tr>
+            <td><h5>Non-Paid Promo</h5></td>
+            <td>A non-paid promo are promo spots that were not 'paid for' by a Network or local station.  Non-paid promos are used for Syndicated titles (Big Bang Theory+Promo) and same Network promos (CBS-Big Bang Theory+Promo on a CBS affiliated station)</td>
+            
+        </tr>
+        <tr>
+            <td><h5>Paid Promo</h5></td>
+            <td>A paid promo is used when programming is being advertised for a non-affiliated Network or Cable station (CBS-Big Bang Theory+Paid Promo if airing on a non-CBS affiliated station or ESPN-MLB Baseball+Paid Promo when promo is airing on a station not affiliated with the Cable network ESPN)</td>
+            
+        </tr>
+    </tbody>
+</table><br><br>
+<img src="{{marvel}}"><br><br>
+<img src="{{marvel2}}"><br><br>
+<center><img src="{{marvel3}}"><br><br></center><br><br>
+<h1>EWS Enviroment</h1><br><br>
+<center><img src="{{env1}}"><br><br></center>
+<center><img src="{{env2}}"><br><br></center>
+<center><img src="{{env3}}"><br><br></center>
+<center><img src="{{env4}}"><br><br></center>
+<center><img src="{{env5}}"><br><br></center>
+<center><img src="{{env6}}"><br><br></center>
+<h1>Editing-Flagging</h1><br><br>
+<center><img src="{{f1}}"><br><br></center>
+<center><img src="{{f2}}"><br><br></center>
+<center><img src="{{f3}}"><br><br></center>
+<center><img src="{{f4}}"><br><br></center>
+<center><img src="{{f5}}"><br><br></center>
+<center><img src="{{f6}}"><br><br></center>
+<center><img src="{{f7}}"><br><br></center>
+<center><img src="{{f8}}"><br><br></center>
+<center><img src="{{f9}}"><br><br></center>
+<h1>Using Email Info</h1><br><br>
+<center><img src="{{e1}}"><br><br></center>
+<center><img src="{{e2}}"><br><br></center>
+<center><img src="{{e3}}"><br><br></center>
+<center><img src="{{e4}}"><br><br></center>
+<center><img src="{{e5}}"><br><br></center>
+<center><img src="{{e6}}"><br><br></center>
+<center><img src="{{e7}}"><br><br></center>
+<center><img src="{{e8}}"><br><br></center>
+<center><img src="{{e9}}"><br><br></center>
+<center><img src="{{e10}}"><br><br></center>
+<center><img src="{{e11}}"><br><br></center>
+<center><img src="{{e12}}"><br><br></center>
+<h1>Production Tracker</h1><br><br>
+<center><img src="{{pt}}"><br><br></center>
+
+
+
+
+</dev>
+
+{%endblock%}

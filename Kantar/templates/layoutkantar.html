@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <!--custom css-->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <!--boostrap 4-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body style="color:white;background-color: black">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color:white;background-color: black">
+        <div class="container-fluid" style="color:white;background-color: black">
+          <a class="navbar-brand" href="{{url_for('summary')}}" style="color:white;background-color: black"><h4>Kantar Spot Wiki</h4></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color:white;background-color: black">
+            <span class="navbar-toggler-icon" style="color:white;background-color: black"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav" style="color:white;background-color: black">
+            <ul class="navbar-nav ml-auto " style="color:white;background-color: black">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="/" style="color:white;background-color: black"><h5>Home</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('spotvocab')}}" style="color:white;background-color: black"><h5>Vocabulary</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('flagging')}}" style="color:white;background-color: black"><h5>Flagging</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('timezones')}}" style="color:white;background-color: black"><h5>Time Zones</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('emailinfo')}}" style="color:white;background-color: black"><h5>E-mail Info</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('guidelines')}}" style="color:white;background-color: black"><h5>Guidelines</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('football')}}" style="color:white;background-color: black"><h5>Football</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('spanish')}}" style="color:white;background-color: black"><h5>Spanish Spots</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('carads')}}" style="color:white;background-color: black"><h5>Car ads</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('promos')}}" style="color:white;background-color: black"><h5>Promos</h5></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('missingtime')}}" style="color:white;background-color: black"><h5>Missing Time</h5></a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('snf')}} " style="color:white;background-color: black"><h5>Sports, News Specials, and FYI’s</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('summary')}}" style="color:white;background-color: black"><h5>Summary</h5></a>
+            </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+     <div class="container p-4">
+{% block content %}
+{%endblock%}
+
+    
+</body>
+</html>
